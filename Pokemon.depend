@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1485436079 source:c:\users\fin\pokemon\main.cpp
+	<iostream>
+	"AttackList.h"
+	"Attack.h"
+
+1485434828 source:c:\users\fin\pokemon\src\attack.cpp
+	"Attack.h"
+
+1485436176 c:\users\fin\pokemon\include\attack.h
+	<AttackData.h>
+
+1485434225 source:c:\users\fin\pokemon\src\attackdata.cpp
+	"AttackData.h"
+
+1485435235 c:\users\fin\pokemon\include\attackdata.h
+	<string>
+
+1485436038 source:c:\users\fin\pokemon\src\attacklist.cpp
+	"AttackList.h"
+	<algorithm>
+
+1485436097 c:\users\fin\pokemon\include\attacklist.h
+	"AttackData.h"
+	<string>
+
