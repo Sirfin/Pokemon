@@ -1,7 +1,7 @@
 #ifndef POKEDEX_H
 #define POKEDEX_H
 #include "PokemonData.h"
-
+#include <vector>
 class Pokedex
 {
     public:
@@ -11,9 +11,10 @@ class Pokedex
         }
         PokemonData* getPokemonByID(int ID) ;
         //PokemonData* getPokemonByName(std::string Name) ;
-
+        int a ;
     protected:
-       PokemonData liste[1]={{1,"Glumanda",20,20,20,20,1,2,3,4}};
+        std::vector<PokemonData> liste ;
+        //PokemonData liste[3]={{1,"Glumanda",20,20,20,20,1,2,3,4},{2,"Glutexo",20,20,20,20,1,2,3,4},{3,"Glurak",20,20,20,20,1,2,3,4}};
     private:
         Pokedex() ;
 //        AttackList{const AttackList&} ;

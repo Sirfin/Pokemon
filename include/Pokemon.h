@@ -10,7 +10,18 @@ class Pokemon
         PokemonData* info ;
 
         ~Pokemon() ;
+        Attack* getAttacksByID(int ID) {
+            return info->attacks[ID] ;
+
+        }
+        int GetRemainingHP(){
+        return remainig_HP ;
+        }
+        void TakeDamage(int damage){
+        remainig_HP-= damage ;
+        }
     protected:
+        int remainig_HP ;
     private:
 
 };

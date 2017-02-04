@@ -1,16 +1,19 @@
 # depslib dependency file v1.0
-1485466295 source:c:\users\fin\pokemon\main.cpp
+1486215269 source:c:\users\fin\pokemon\main.cpp
 	<iostream>
 	"AttackList.h"
 	"Attack.h"
 	"Pokemon.h"
+	"Trainer.h"
 	"Pokedex.h"
+	"Fight.h"
 
 1485436248 source:c:\users\fin\pokemon\src\attack.cpp
 	"Attack.h"
 
-1485436285 c:\users\fin\pokemon\include\attack.h
+1485772506 c:\users\fin\pokemon\include\attack.h
 	<AttackData.h>
+	<string>
 
 1485434225 source:c:\users\fin\pokemon\src\attackdata.cpp
 	"AttackData.h"
@@ -26,24 +29,54 @@
 	"AttackData.h"
 	<string>
 
-1485460393 source:c:\users\fin\pokemon\src\pokedex.cpp
+1486214365 source:c:\users\fin\pokemon\src\pokedex.cpp
 	"Pokedex.h"
+	<iostream>
 
-1485466248 c:\users\fin\pokemon\include\pokedex.h
+1486212909 c:\users\fin\pokemon\include\pokedex.h
 	"PokemonData.h"
+	<vector>
 
-1485460336 source:c:\users\fin\pokemon\src\pokemondata.cpp
+1485466825 source:c:\users\fin\pokemon\src\pokemondata.cpp
 	"PokemonData.h"
+	"AttackList.h"
 
 1485466651 c:\users\fin\pokemon\include\pokemondata.h
 	<string>
 	"Attack.h"
 
-1485466086 c:\users\fin\pokemon\include\pokemon.h
+1486215750 c:\users\fin\pokemon\include\pokemon.h
 	"Attack.h"
 	"PokemonData.h"
 	"AttackList.h"
 
-1485466431 source:c:\users\fin\pokemon\src\pokemon.cpp
+1486213474 source:c:\users\fin\pokemon\src\pokemon.cpp
 	"Pokemon.h"
+
+1486218135 source:c:\users\fin\pokemon\src\trainer.cpp
+	"Trainer.h"
+	"Pokedex.h"
+	<iostream>
+
+1486218222 c:\users\fin\pokemon\include\trainer.h
+	"Pokemon.h"
+	"TrainerList.h"
+	<vector>
+
+1486218059 source:c:\users\fin\pokemon\src\trainerlist.cpp
+	"TrainerList.h"
+	<time.h>
+
+1486218099 c:\users\fin\pokemon\include\trainerlist.h
+	<map>
+	<vector>
+	<string>
+
+1486217753 source:c:\users\fin\pokemon\src\fight.cpp
+	"Fight.h"
+	<stdlib.h>
+	<iostream>
+
+1486217127 c:\users\fin\pokemon\include\fight.h
+	"Trainer.h"
 

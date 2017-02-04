@@ -37,10 +37,20 @@
 		<Unit filename="include/Attack.h" />
 		<Unit filename="include/AttackData.h" />
 		<Unit filename="include/AttackList.h" />
+		<Unit filename="include/Pokedex.h" />
+		<Unit filename="include/Pokemon.h" />
+		<Unit filename="include/PokemonData.h" />
+		<Unit filename="include/Trainer.h" />
+		<Unit filename="include/TrainerList.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Attack.cpp" />
 		<Unit filename="src/AttackData.cpp" />
 		<Unit filename="src/AttackList.cpp" />
+		<Unit filename="src/Pokedex.cpp" />
+		<Unit filename="src/Pokemon.cpp" />
+		<Unit filename="src/PokemonData.cpp" />
+		<Unit filename="src/Trainer.cpp" />
+		<Unit filename="src/TrainerList.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
