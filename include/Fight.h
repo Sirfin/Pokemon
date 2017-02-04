@@ -15,9 +15,10 @@ class Fight
         bool Win ;
     private:
         bool checkIfTrainerCanFight(Trainer* trainerToCheck) ;
-        void PrintFight() ;
+        void PrintFight(bool withAttacks) ;
         void AttackPokemonWithAttack(Pokemon* ToAttack , Attack* attack) ;
         Pokemon* SwitchUpPokemon(bool PlayerChoose) ;
+        void WaitForEnter() ;
 };
 
 #endif // FIGHT_H

@@ -21,7 +21,8 @@ Trainer::~Trainer()
 
 void Trainer::PrintTeam(){
 for (int i = 0 ; i < team.size();i++){
-    std::cout << team[i]->info->getName() << std::endl ;
+    std::cout << i+1 << ". " << team[i]->info->getName() << " HP: " << team[i]->GetRemainingHP() << "/" << team[i]->info->getMaxHP() <<std::endl ;
+    team[i]->PrintHP() ;
 }
 
 }

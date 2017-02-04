@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1486215269 source:c:\users\fin\pokemon\main.cpp
+1486220770 source:c:\users\fin\pokemon\main.cpp
 	<iostream>
 	"AttackList.h"
 	"Attack.h"
@@ -25,7 +25,7 @@
 	"AttackList.h"
 	<algorithm>
 
-1485436097 c:\users\fin\pokemon\include\attacklist.h
+1486220846 c:\users\fin\pokemon\include\attacklist.h
 	"AttackData.h"
 	<string>
 
@@ -45,15 +45,16 @@
 	<string>
 	"Attack.h"
 
-1486215750 c:\users\fin\pokemon\include\pokemon.h
+1486220067 c:\users\fin\pokemon\include\pokemon.h
 	"Attack.h"
 	"PokemonData.h"
 	"AttackList.h"
 
-1486213474 source:c:\users\fin\pokemon\src\pokemon.cpp
+1486220640 source:c:\users\fin\pokemon\src\pokemon.cpp
 	"Pokemon.h"
+	<iostream>
 
-1486218135 source:c:\users\fin\pokemon\src\trainer.cpp
+1486220709 source:c:\users\fin\pokemon\src\trainer.cpp
 	"Trainer.h"
 	"Pokedex.h"
 	<iostream>
@@ -72,11 +73,11 @@
 	<vector>
 	<string>
 
-1486217753 source:c:\users\fin\pokemon\src\fight.cpp
+1486220759 source:c:\users\fin\pokemon\src\fight.cpp
 	"Fight.h"
 	<stdlib.h>
 	<iostream>
 
-1486217127 c:\users\fin\pokemon\include\fight.h
+1486219484 c:\users\fin\pokemon\include\fight.h
 	"Trainer.h"
 

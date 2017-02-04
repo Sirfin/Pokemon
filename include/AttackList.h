@@ -13,7 +13,7 @@ class AttackList
         AttackData* getAttackValuesByName(std::string Name) ;
 
     protected:
-            AttackData attacks[4]={{1,40,20,"Ember"},{2,40,20,"Razorleafs"},{3,40,20,"Watergun"},{4,200,5,"Hyperbeam"}};
+            AttackData attacks[4]={{1,10,20,"Ember"},{2,20,20,"Razorleafs"},{3,30,20,"Watergun"},{4,200,5,"Hyperbeam"}};
     private:
         AttackList() {} ;
 //        AttackList{const AttackList&} ;

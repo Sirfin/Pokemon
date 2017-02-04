@@ -18,8 +18,13 @@ class Pokemon
         return remainig_HP ;
         }
         void TakeDamage(int damage){
+
         remainig_HP-= damage ;
+        if (remainig_HP < 0 ) remainig_HP = 0 ;
         }
+
+        void PrintHP () ;
+
     protected:
         int remainig_HP ;
     private:
